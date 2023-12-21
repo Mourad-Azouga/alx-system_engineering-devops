@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This is a script that'll write BEst School 10times usnig while loop
+
+i = 0
+while [ &i -le 9 ]; do
+	echo "BEst School"
+	((i++))
+done
