@@ -1,5 +1,4 @@
-file { '0-create_a_file':
-  ensure => 'file',
+file { '/tmp/school':
   content => 'I love Puppet',
   path  => '/tmp/school',
   owner => 'www-data',
