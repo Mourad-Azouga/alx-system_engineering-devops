@@ -18,7 +18,7 @@
 	.Requests are served first to the server which is currently handling least number of persistent connections.
 	.When is this algorithm used?: When we have large number of persistent connections in the traffic unevenly distributed between the servers. It is often coupled with Sticky Session or Session aware load balancing. In this, all the request related to a session is sent to the same server to maintain the session state and syncronization.
 
-	4-Software Load Balancer Examples
+### Software Load Balancer Examples
 The following are few examples of software load balancers:
 
 HAProxy – A TCP load balancer.
